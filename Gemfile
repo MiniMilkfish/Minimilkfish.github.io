@@ -1,2 +1,2 @@
-source "https://rubygems.org"
+source "https://mirrors.ustc.edu.cn/rubygems/"
 gemspec
