@@ -4,11 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <title>
-        {% if page.title %}
-            {{ page.title }}
-        {% else %} 
-            {{ site.name }} &mdash; {{ site.description }}
-        {% endif %}
+        {{ site.name }} | {{ site.description }}
     </title>
 
     {% if site.highlighter %}
